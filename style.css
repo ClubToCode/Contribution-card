@@ -1,0 +1,29 @@
+.body {
+  background-color: rgb(166, 166, 166);
+}
+.card {
+  padding: 50px;
+  width: 600px;
+  height: 300px;
+  display: flex;
+  background-color: bisque;
+}
+
+.card-photo img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+.card-text {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  width: 400px;
+  height: 400px;
+}
+.event-organizer img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
