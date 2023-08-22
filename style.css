@@ -1,5 +1,10 @@
-.body {
-  background-color: rgb(166, 166, 166);
+body {
+  background: rgb(255, 181, 228);
+  background: radial-gradient(
+    circle,
+    rgba(255, 181, 228, 1) 0%,
+    rgba(211, 225, 243, 1) 100%
+  );
 }
 .card {
   padding: 50px;
@@ -7,6 +12,11 @@
   height: 300px;
   display: flex;
   background-color: bisque;
+  border-radius: 10px;
+  position: relative;
+  top: 180px;
+  left: 350px;
+  box-shadow: 1px 3px 46px 6px rgba(0, 0, 0, 0.67);
 }
 
 .card-photo img {
@@ -21,6 +31,11 @@
   align-items: space-between;
   width: 400px;
   height: 400px;
+}
+.card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 .event-organizer img {
   width: 50px;
