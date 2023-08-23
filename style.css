@@ -11,6 +11,8 @@ body {
   width: 600px;
   height: 300px;
   display: flex;
+  justify-content: space-evenly;
+
   background-color: bisque;
   border-radius: 10px;
   position: relative;
