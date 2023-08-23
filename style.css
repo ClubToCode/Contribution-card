@@ -32,6 +32,20 @@ body {
   width: 400px;
   height: 400px;
 }
+
+.card-title h1 {
+  font-size: 50px;
+  background: linear-gradient(
+    90deg,
+    rgb(133, 82, 167) 0%,
+    rgba(202, 22, 22, 1) 54%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  background-clip: unset;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .card-footer {
   display: flex;
   align-items: center;
